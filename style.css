@@ -148,8 +148,10 @@ a { color: inherit; }
 .social:hover { transform: translateY(-3px); }
 .social--tiktok { background: #111; }
 .social--facebook { background: #1877f2; }
-.social__name { font-weight: 600; font-size: 1.1rem; }
-.social__handle { opacity: .8; }
+.social__name { display: block; font-weight: 600; font-size: 1.1rem; }
+.social__handle { display: block; opacity: .75; font-size: .9rem; }
+.social__arrow { font-size: 1.4rem; transition: transform .2s; }
+.social:hover .social__arrow { transform: translateX(4px); }
 
 .contact { text-align: center; }
 .contact p { color: rgba(255,255,255,.75); max-width: 32rem; margin: 0 auto 2rem; }
